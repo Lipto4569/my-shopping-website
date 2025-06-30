@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+nav{
+    background-color: bisque;
+}
+.ul1 {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.list1 {
+    font-family: "Michroma", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 0;
+
+}
+
+.anc1 {
+    text-decoration: none;
+    color: black;
+}
+
+.anc1:hover {
+    color: rgb(11, 204, 204);
+}
+
+.imgdiv {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* vertical-align: middle; */
+    padding: 19px;
+    cursor: pointer;
+}
+
+.image1 {
+    height: 221px;
+    width: 399px;
+}
+
+.divmain {
+    /* display:flex;
+    justify-content: space-evenly; */
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 2px solid red; */
+    background-color: black;
+    color: azure;
+
+}
+
+.subdiv:hover {
+    box-shadow: whitesmoke -2px 3px 7px 1px;
+    transform: scale(1.01);
+    transition: transform;
+    transition-timing-function: ease-in-out;
+    transition-duration: 3ms;
+    /* margin: 7px; */
+}
+
+.imagediv1 {
+    /* background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgIBwcHCAYGCAcHBgoHBggHCBsICQcKFREWFhURExMYKCggGBolGxMTITEhJSkrLi4uFx8zODMsNygtLisBCgoKBQUFDgUFDisZExkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAKgBLAMBIgACEQEDEQH/xAAaAAEBAAMBAQAAAAAAAAAAAAAAAQIDBQQH/8QAKxABAAADBAoDAAMAAAAAAAAAAAEC0QMFVZMEExUWUlNUkZKhERIUBiFR/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/APlu9V+4vbZUlE3pvzFrbKko44Drx/lF94rbZUlDee+sVtcqSjjgOvvNfOKWuVLRN5b5xO1ypaOSA6u8l8YnaZUtE3ivfErTKlo5YDp7w3viVply0N4b2xG0y5aOWA6e8F64haZctE2/euIWmXLRzQHR27enX2mXLRNuXn18+XLRz0B0I33eXXT5ctE21ePWz5ctHgAe7bF4dZNly0Ta2n9XNly0eIB7Nq6d1c3hCiRvPTeqm8IUeQB6to6X1M3hCjH9+ldRN4wo84Df+3SefN4wSOmaRzo+MGgBu/Xb86PjBP023Nj4wagG39FtzY9oJr7XmR7QawGzXWnMj2gmutOOPaDABnrZ+OPZNZPxemIDLWT8Xo+83F6YoDL7zcXo+83F6YgL9puL0fab/fSANgAAAAgAAAAAgAAAAAAAAgAAAAAAAAAAAIAAAAAADYIAAAAACAAAAAAAAACAAAAAAAAAAAAIAAAAAAAAAzBAUQAAAAAAAAAEAAAAAAAAAAAAAEAAAAAAAAAAAGQAAAAAAAAICoAAAAAAAAAAAAIAAAAAAAAAAAAAADIAAAAEBUAAAAAAAAAAAAABAAAAAAAAAAAAAAAAABkIAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAAAACAqAAAAAAAAAAAAAAAAAAAAAAACgAAAAAAAAgKgAAAAAAAAAAAAAAAAAAAAAAAAAAAoAAAAgCoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAL8p8gAf0AHyAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/9k=');
+    background-size: 1450px 230px;
+    background-repeat: no-repeat; */
+    background-color: black;
+}
+
+.paradiv {}
+
+.subdiv {
+    /* border: 2px solid blue; */
+    margin: 10px;
+    margin-top: 0px;
+    font-family: "Exile", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+#subdiv1 {
+    height: 386px;
+    width: 191px;
+}
+
+#subdiv2 {
+    height: 386px;
+    width: 225px;
+}
+
+#subdiv3 {
+    height: 386px;
+    width: 329px;
+}
+
+#subdiv4 {
+    height: 386px;
+    width: 194px;
+}
+
+#subdiv5 {
+    height: 386px;
+    width: 225px;
+}
+
+#subdiv6 {
+    height: 386px;
+    width: 182px;
+}
+
+#subdiv7 {
+    height: 386px;
+    width: 225px;
+}
+
+#subdiv8 {
+    height: 386px;
+    width: 218px;
+}
+
+#subdiv9 {
+    height: 386px;
+    width: 227px;
+}
+
+#subdiv10 {
+    height: 386px;
+    width: 195px;
+}
+
+.h1p {
+    color: burlywood;
+    text-align: center;
+    padding: 5px;
+    font-family: "Exile", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.image1:hover {
+    box-shadow: rgb(238, 167, 167) -4px 6px 15px 4px;
+    transform: scale(1.01);
+    transition: transform;
+    transition-timing-function: ease-in-out;
+    transition-duration: 3ms;
+}
+
+.divmain1 {
+    background-color: black;
+}
+
+.para0 {
+    visibility: hidden;
+    position: absolute;
+    font-family: "Michroma", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.subdiv:hover>.subpara1 {
+    background-color: white;
+    height: 200px;
+    width: 350px;
+    position: absolute;
+    top: -100px;
+    right: -300px;
+    opacity: 87%;
+    color: black;
+}
+
+.subdiv:hover>.subpara1>.para0 {
+    visibility: visible;
+}
+.subdiv:hover>.subpara2>.para0 {
+    visibility: visible;
+}
+.subdiv:hover>.subpara2 {
+    background-color: white;
+    height: 200px;
+    width: 350px;
+    position: absolute;
+    top: -100px;
+    left: -300px;
+    opacity: 87%;
+    color: black;
+}
